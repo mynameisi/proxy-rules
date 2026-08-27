@@ -61,21 +61,21 @@ https://cdn.jsdelivr.net/gh/mynameisi/proxy-rules@master/rulesets/cn-direct.list
 rule-providers:
   kimi-direct:
     type: http
-    behavior: domain
-    format: yaml
-    url: https://raw.githubusercontent.com/mynameisi/proxy-rules/master/rulesets/kimi-direct.yaml
+    behavior: classical
+    format: text
+    url: https://cdn.jsdelivr.net/gh/mynameisi/proxy-rules@master/rulesets/kimi-direct.list
     interval: 86400
   cn-direct:
     type: http
-    behavior: domain
-    format: yaml
-    url: https://raw.githubusercontent.com/mynameisi/proxy-rules/master/rulesets/cn-direct.yaml
+    behavior: classical
+    format: text
+    url: https://cdn.jsdelivr.net/gh/mynameisi/proxy-rules@master/rulesets/cn-direct.list
     interval: 86400
   must-proxy:
     type: http
-    behavior: domain
-    format: yaml
-    url: https://raw.githubusercontent.com/mynameisi/proxy-rules/master/rulesets/must-proxy.yaml
+    behavior: classical
+    format: text
+    url: https://cdn.jsdelivr.net/gh/mynameisi/proxy-rules@master/rulesets/must-proxy.list
     interval: 86400
 
 rules:
@@ -84,6 +84,12 @@ rules:
   - RULE-SET,must-proxy,PROXY
   # ... rest of your rules
 ```
+
+> Use `classical` + `.list`, **not** `domain` + `.yaml`: on mihomo v1.19.29
+> (verge-mihomo, Clash Verge 2.5.2) a `behavior: domain` HTTP provider loaded
+> from the `.yaml` payload matched exact domains only — subdomains like
+> `api.moonshot.cn` fell through to later rules. `DOMAIN-SUFFIX` classical
+> entries suffix-match as expected.
 
 Clash Verge GUI: Profiles → **Merge** (rule-providers) + **Rules** prepend
 the three `RULE-SET` lines.
