@@ -1,0 +1,7 @@
+# Mihomo/Clash rule-provider (behavior: domain) — Kimi / Moonshot AI goes DIRECT
+payload:
+  - kimi.com
+  - kimi.moonshot.cn
+  - moonshot.cn      # api.moonshot.cn, platform.moonshot.cn
+  - moonshot.ai      # api.moonshot.ai, platform.moonshot.ai
+  - moonshotai.cn
