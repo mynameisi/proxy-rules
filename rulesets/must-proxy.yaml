@@ -1,0 +1,26 @@
+# Mihomo/Clash rule-provider (behavior: domain) — must go through proxy
+# Map to your proxy group (Surge: Datacenter). udacity keyword/exact only in .list.
+payload:
+  - ca.gov
+  - cursor.com
+  - fastbackgroundcheck.com
+  - ggpht.com
+  - google.com
+  - googleapis.com
+  - googlevideo.com
+  - grok.com
+  - gstatic.com
+  - lennysnewsletter.com
+  - linkedin.com
+  - manus.im
+  - openai.com
+  - parallels.com
+  - paypal.com
+  - perplexity.ai
+  - sheerid.com
+  - udacity.com
+  - ultramobile.com
+  - youtu.be
+  - youtube-nocookie.com
+  - youtube.com
+  - ytimg.com

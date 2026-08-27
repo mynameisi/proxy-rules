@@ -1,0 +1,26 @@
+# Classical ruleset (Clash classical / Surge) — must go through proxy (not DIRECT)
+DOMAIN,udacity-student-workspaces.com
+DOMAIN-SUFFIX,ca.gov
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,fastbackgroundcheck.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,lennysnewsletter.com
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,manus.im
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,parallels.com
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,sheerid.com
+DOMAIN-SUFFIX,udacity.com
+DOMAIN-SUFFIX,ultramobile.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-KEYWORD,udacity-student-workspaces
