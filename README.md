@@ -49,6 +49,12 @@ https://raw.githubusercontent.com/mynameisi/proxy-rules/master/rulesets/must-pro
 https://raw.githubusercontent.com/mynameisi/proxy-rules/master/rulesets/must-proxy.list
 ```
 
+From mainland China, jsDelivr is often more reliable than `raw.githubusercontent.com`:
+
+```
+https://cdn.jsdelivr.net/gh/mynameisi/proxy-rules@master/rulesets/cn-direct.list
+```
+
 ### mihomo / Clash Verge
 
 ```yaml
